@@ -3,6 +3,11 @@ import "./counter.css";
 
 const CounterApp = () => {
 
+    // ------------------------------------------------------------------------------------------------------------
+    // USE STATE: Es un hook que permite que una variable tenga cambios constantes, y esa variable tiene su propia funcion setState() para cambiar el valor de ella
+    // ------------------------------------------------------------------------------------------------------------
+
+
     // setState con OBJETOS !!!!1
     const [state, setState] = useState({ 
         counter1: 10,
